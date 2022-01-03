@@ -7,7 +7,7 @@ leave the `use system colors` and `underline links` ticked off (link colors can 
 
 | Colors |
 |---|
-| ![colors](colors.png)|
+| ![colors](examples/colors.png)|
 
 to unlock the usage of custom css go to `about:config` search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`
 
@@ -25,19 +25,27 @@ here is how some of the popular websites look with this custom setup:
 
 | Github |
 |---|
-| ![github](github.png) |
+| ![github](examples/github.png) |
+
+| StackOverFlow |
+|---|
+| ![stackoverflow](examples/stackoverflow.png) |
 
 | Youtube |
 |---|
-| ![youtube](youtube.png) |
+| ![youtube](examples/youtube.png) |
 
 | Reddit |
 |---|
-| ![reddit](reddit.png) |
+| ![reddit](examples/reddit.png) |
 
 | Mastodon |
 |---|
-| ![mastodon](mastodon.png) |
+| ![mastodon](examples/mastodon.png) |
+
+| Archive.org |
+|---|
+| ![archive](examples/archive.png) |
 
 <br>
 
@@ -45,7 +53,7 @@ error pages are also in dark mode, no more blinding white background
 
 | Error Page |
 |---|
-| ![error](error.png)|
+| ![error](examples/error.png)|
 
 <br>
 
