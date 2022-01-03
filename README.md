@@ -2,7 +2,7 @@ this css file is not meant to be used on it's own, i'm using it with the colors 
 
 go to `settings` > `language and appearance` > `colors`
 
-i have set the `text color` to light grey and `background` to dark grey, `set override colors specified by the page with your selections above` to `always`
+i have set the `text color` to light grey (#111111) and `background` (#dddddd) to dark grey, `set override colors specified by the page with your selections above` to `always`
 leave the `use system colors` and `underline links` ticked off
 
 to unlock the usage of custom css go to `about:config` search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`
