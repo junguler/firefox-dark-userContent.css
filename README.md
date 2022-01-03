@@ -7,9 +7,7 @@ leave the `use system colors` and `underline links` ticked off
 
 to unlock the usage of custom css go to `about:config` search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`
 
-to find your profile folder go to `about:support` click `Profile Folder` and `Open folder` - alternatively you can go to `about:profiles` click on `Root Directory` and `Open Folder`
-
-your profile folder name is different from other people, if you don't know which is the one you are currently using make a `chrome` folder in all of them and copy this `userContent.css` inside
+to find your profile folder go to `about:support` click `Profile Directory` and `Open directory` - alternatively you can go to `about:profiles` click on `Root Directory` and `Open Folder`
 
 set the firefox theme to dark and from there it should be a smooth experience without any white flashes (tested under kubuntu 20.04 firefox 95)
 
