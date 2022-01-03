@@ -7,7 +7,7 @@ leave the `use system colors` and `underline links` ticked off
 
 to unlock the usage of custom css go to `about:config` search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`
 
-to find your profile folder go to `about:config` click `Profile Folder` and `Open folder` - alternatively you can go to `about:profiles` click on `Root Directory` and `Open Folder`
+to find your profile folder go to `about:support` click `Profile Folder` and `Open folder` - alternatively you can go to `about:profiles` click on `Root Directory` and `Open Folder`
 
 your profile folder name is different from other people, if you don't know which is the one you are currently using make a `chrome` folder in all of them and copy this `userContent.css` inside
 
