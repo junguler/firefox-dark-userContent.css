@@ -1,13 +1,15 @@
 this css file is not meant to be used on it's own, i'm using it with the colors option from the firefox settings page
 
-go to `settings` > `language and appearance` > `colors`
+go to `[settings](about:preferences)` > `language and appearance` > `colors`
 
 i have set the `text color` to light grey (#dddddd) and `background` (#111111) to dark grey, `set override colors specified by the page with your selections above` to `always`
 leave the `use system colors` and `underline links` ticked off
 
+![colors](https://user-images.githubusercontent.com/59083599/147932614-d4dfb3e5-39ac-47b2-bf72-ed607d31c30c.png)
+
 to unlock the usage of custom css go to `about:config` search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`
 
-to find your profile folder go to `about:support` click `Profile Directory` and `Open directory` - alternatively you can go to `about:profiles` click on `Root Directory` and `Open Folder`
+to find your profile folder go to `about:support` click `Profile Directory` and `Open directory` - alternatively you can go to `about:profiles` click on `Root Directory` and `Open directory` depending on your os it might be called folder too (in both pages)
 
 set the firefox theme to dark and from there it should be a smooth experience without any white flashes (tested under kubuntu 20.04 firefox 95)
 
