@@ -1,0 +1,131 @@
+body, .body {
+background-color: #111 !important;
+background: #111 !important;
+background-image: linear-gradient(#222,#111) !important;
+color: #ddd !important;
+opacity: .90 !important;
+}
+
+/* html div span {
+scrollbar-color: hotpink cyan !important;
+} */
+
+p, .p {
+color: #ddd !important;
+}
+
+b, .b {
+color: #ffabab !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+color: #85e3ff !important;
+}
+
+ul, ol, li, dl, dt, dd, optgroup, .ul, .ol, .li, .dl, .dt, .dd, .optgroup {
+color: #f6a6ff !important;
+}
+
+table, td, th, tr, col, caption, thead, tbody, tfoot, .table, .td, .th, .tr, .col, .caption, .thead, .tbody, .tfoot {
+background-color: #222 !important;
+color: #ddd !important;
+}
+
+img, .img {
+filter: brightness(.75) !important;
+background: #111 !important;
+background-color: #111 !important;
+/* background-image: linear-gradient(#222,#111) !important; */
+/* filter: invert(75%) !important; */
+/* transition: opacity .5s ease-in-out !important; */
+}
+
+/* img:hover { */
+/* filter: brightness(1) !important; */
+/* filter: invert(0%) !important; */
+/* } */
+
+code, blockquote, .code, .blockquote {
+background-color: #333 !important;
+color: gold !important;
+}
+
+label, textarea, form, select, input, q, dialog, .label, .textarea, .form, .select, .input, .q, .dialog {
+background-color: #333 !important;
+color: #ddd !important;
+}
+
+button, btn, .button, .btn {
+background-color: #444 !important;
+border-color: #97a2ff !important;
+border-width: 2px !important;
+color: gold !important;
+}
+
+a:link, .a:link {
+color: #eee !important;
+border-bottom: gold 1px solid !important;
+}
+
+a:visited, .a:visited {
+color: lightgreen !important;
+}
+
+a:hover, .a:hover {
+color: orange !important;
+}
+
+a:active, .a:active {
+color: yellow !important;
+} 
+
+/* @-moz-document domain("odysee.com"), domain("youtube.com") {
+	div {
+	}
+} */
+
+/* div {
+background-color: #222 !important;
+background: #222 !important;
+background-image: linear-gradient(#333,#222) !important;
+color: #ddd !important;
+} */
+
+
+/* .dnsNotFound #errorPageContainer{
+	background-color: #111111 !important;
+}
+
+.connectionFailure #errorPageContainer{
+	background-color: #111111 !important;
+}
+
+.netTimeout #errorPageContainer{
+	background-color: #111111 !important;
+}
+
+.neterror #errorPageContainer{
+	background-color: #111111 !important;
+} */
+
+/* URL to SVG filter
+filter: url("filters.svg#filter-id"); */
+
+/*
+filter: blur(5px);
+filter: brightness(0.4);
+filter: contrast(200%);
+filter: drop-shadow(16px 16px 20px blue);
+filter: grayscale(50%);
+filter: hue-rotate(90deg);
+filter: invert(75%);
+filter: opacity(25%);
+filter: saturate(30%);
+filter: sepia(60%);
+filter: contrast(175%) brightness(3%);
+filter: none;
+filter: inherit;
+filter: initial;
+filter: revert;
+filter: unset; 
+*/
