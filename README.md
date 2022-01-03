@@ -1,6 +1,6 @@
 this css file is not meant to be used on it's own, i'm using it with the colors option from the firefox settings page
 
-go to [settings](about:preferences) > `language and appearance` > `colors`
+go to `settings` > `language and appearance` > `colors`
 
 i have set the `text color` to light grey (#dddddd) and `background` (#111111) to dark grey, `set override colors specified by the page with your selections above` to `always`
 leave the `use system colors` and `underline links` ticked off
