@@ -23,4 +23,8 @@ here is how some of the popular websites look with this custom setup:
 
 ![mastodon](mastodon.png)
 
+error pages are also in dark mode, no more blinding white background
+
+![error](https://user-images.githubusercontent.com/59083599/147935986-a27329a5-0236-40b5-ba58-e92e97554929.png)
+
 things might change with this file in the future but i consider it usable and it's a direct improvement over the dark extensions i've used in the past, some pastal colors are used in different tags to give a bit of life to pages as they were quite two dimensional if you only used firefox's color option alone
