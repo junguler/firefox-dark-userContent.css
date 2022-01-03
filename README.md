@@ -31,6 +31,10 @@ here is how some of the popular websites look with this custom setup:
 |---|
 | ![stackoverflow](examples/stackoverflow.png) |
 
+| Google Search |
+|---|
+| ![google](examples/google.png) |
+
 | Youtube |
 |---|
 | ![youtube](examples/youtube.png) |
