@@ -1,11 +1,13 @@
 this css file is not meant to be used on it's own, i'm using it with the colors option from the firefox settings page
 
-go to `settings` > `language and appearance` > `colors`
+go to `Settings` > `Language and Appearance` > `Colors`
 
 i have set `text` to light grey (#dddddd) and `background` (#111111) to dark grey, set `override the colors specified by the page with your selections above` to `always`
 leave the `use system colors` and `underline links` ticked off (link colors can be set but we are overwritting them in the css file anyway)
 
-![colors](colors.png)
+| Colors |
+|---|
+| ![colors](colors.png)|
 
 to unlock the usage of custom css go to `about:config` search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`
 
@@ -21,19 +23,29 @@ set the firefox theme to dark in `about:addons` > `themes` and from there it sho
 
 here is how some of the popular websites look with this custom setup:
 
-![github](github.png)
+| Github |
+|---|
+| ![github](github.png) |
 
-![youtube](youtube.png)
+| Youtube |
+|---|
+| ![youtube](youtube.png) |
 
-![reddit](reddit.png)
+| Reddit |
+|---|
+| ![reddit](reddit.png) |
 
-![mastodon](mastodon.png)
+| Mastodon |
+|---|
+| ![mastodon](mastodon.png) |
 
 <br>
 
 error pages are also in dark mode, no more blinding white background
 
-![error](error.png)
+| Error Page |
+|---|
+| ![error](error.png)|
 
 <br>
 
