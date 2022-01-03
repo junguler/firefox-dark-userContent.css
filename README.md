@@ -2,7 +2,7 @@ this css file is not meant to be used on it's own, i'm using it with the colors 
 
 go to `settings` > `language and appearance` > `colors`
 
-i have set `text` to light grey (#dddddd) and `background` (#111111) to dark grey, `set override colors specified by the page with your selections above` to `always`
+i have set `text` to light grey (#dddddd) and `background` (#111111) to dark grey, set `override the colors specified by the page with your selections above` to `always`
 leave the `use system colors` and `underline links` ticked off (link colors can be set but we are overwritting them in the css file anyway)
 
 ![colors](colors.png)
