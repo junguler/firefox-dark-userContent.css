@@ -13,4 +13,14 @@ to find your profile folder go to `about:support` click `Profile Directory` and 
 
 set the firefox theme to dark in `about:addons` > `themes` and from there it should be a smooth experience without any white flashes before pages loading or when clicking on a link (tested under kubuntu 20.04 firefox 95)
 
+here is how some of the popular websites look with this custom setup:
+
+![github](github.png)
+
+![youtube](youtube.png)
+
+![reddit](reddit.png)
+
+![mastodon](mastodon.png)
+
 things might change with this file in the future but i consider it usable and it's a direct improvement over the dark extensions i've used in the past, some pastal colors are used in different tags to give a bit of life to pages as they were quite two dimensional if you only used firefox's color option alone
