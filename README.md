@@ -67,15 +67,13 @@ img, .img {
 background: #ccc !important;
 background-color: #ccc !important;
 filter: brightness(.75) invert(75%) hue-rotate(180deg) !important;
-transition: none !important;
 }
 
 img:hover, .img:hover {
-transition: none !important;
 filter: brightness(1) invert(0%) hue-rotate(0deg) !important;
 }
 ```
-this option is not perfect tho but it works for people with severe accessibility issues or eye fatigue, i'm not going to include this in the main file either as the majority of people probably don't need it
+this option is not perfect tho but it works for people with severe accessibility issues or eye fatigue, i'm not going to include this in the main file either as the majority of people probably don't need it, i'm sure there is a better way to do this and i'm actively searching for it but i'm going to leave this here for the time being
 
 <br>
 
