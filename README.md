@@ -1,5 +1,6 @@
 this css file is not meant to be used on it's own, i'm using it with the colors option from the firefox settings page
 
+## how to use?
 go to `Settings` > `Language and Appearance` > `Colors`
 
 i have set `text` to light grey #cccccc and `background` to dark grey #222222, set `override the colors specified by the page with your selections above` to `always`
@@ -21,6 +22,7 @@ set the firefox theme to dark in `about:addons` > `themes` and from there it sho
 
 <br>
 
+## how it looks
 here is how some of the popular websites look with this custom setup:
 
 | Github |
@@ -61,6 +63,7 @@ error pages are also in dark mode, no more blinding white background
 
 <br>
 
+## remove white backgorund for loading images
 if you are on a slow internet and notice many images loading with a white background even tho we have set dark background colors for images it's because most images have a white background baked into them, we can go around this by applying some inverting filters to images and revert them back when your mouse is hovering over the image, this will make the images harder to make out and it might result in hard to understand images but will help alleviate eye pain, edit the the css file and add these lines for the img and img:hover tag sections and remove the previous lines regarding the same tags
 ```
 img, .img {
@@ -84,4 +87,5 @@ this option is not perfect tho but it works for people with severe accessibility
 
 <br>
 
+## still in beta status and actively worked on
 things might change with this file in the future but i consider it usable and it's a direct improvement over the dark extensions i've used in the past, some pastal colors are used in different tags to give a bit of life to pages as they were quite two dimensional if you only used firefox's color option alone
