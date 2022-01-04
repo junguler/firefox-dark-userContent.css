@@ -61,7 +61,7 @@ error pages are also in dark mode, no more blinding white background
 
 <br>
 
-if you are on a slow internet and notice many images loading with a white background even tho we have set dark background colors for images it's because most images have a white background baked into them, we can go around this by applying some inverting filters to images and revert them back when your mouse is hovering over the image, this will make the images harder to make out and it might result in hard to understand images but will help elavete eye pain, edit the the css file and add this for the img and img:hover tag sections
+if you are on a slow internet and notice many images loading with a white background even tho we have set dark background colors for images it's because most images have a white background baked into them, we can go around this by applying some inverting filters to images and revert them back when your mouse is hovering over the image, this will make the images harder to make out and it might result in hard to understand images but will help alleviate eye pain, edit the the css file and add these lines for the img and img:hover tag sections and remove the previous lines regarding the same tags
 ```
 img, .img {
 background: #ccc !important;
