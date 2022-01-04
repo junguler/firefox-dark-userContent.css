@@ -1,9 +1,9 @@
 body, .body {
-background-color: #111 !important;
-background: #111 !important;
-background-image: linear-gradient(#222,#111) !important;
-color: #ddd !important;
-opacity: .90 !important;
+background-color: #111 !important; /* background color */
+background: #111 !important; /* background color */
+background-image: linear-gradient(#222,#111) !important; /* background gradient, it used on some websites */
+color: #ddd !important;  /* text color */
+opacity: .90 !important;  /* make everything on the page 90% brightness */
 }
 
 /* html div span {
@@ -11,30 +11,30 @@ scrollbar-color: hotpink cyan !important;
 } */
 
 p, .p {
-color: #ddd !important;
+color: #ddd !important;  /* text color */
 }
 
 b, em, i, mark, u, .em, .b, .i, .mark, .u {
-color: #ffabab !important;
+color: #ffabab !important;  /* color for bold text and glyphs */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-color: #85e3ff !important;
+color: #85e3ff !important;  /* color for all header sizes */
 }
 
 ul, ol, li, del, dt, dd, optgroup, dl, .ul, .ol, .li, .del, .dt, .dd, .optgroup, .dl {
-color: #f6a6ff !important;
+color: #f6a6ff !important;  /* color for all list types */
 }
 
 table, td, th, tr, col, caption, thead, tbody, tfoot, colgroup, dialog, .table, .td, .th, .tr, .col, .caption, .thead, .tbody, .tfoot, .colgroup, .dialog {
-background-color: #222 !important;
-color: #ddd !important;
+background-color: #222 !important;   /* background color for all tables */
+color: #ddd !important;   /* color for all tables */
 }
 
 img, .img {
-filter: brightness(.75) !important;
-background: #111 !important;
-background-color: #111 !important;
+filter: brightness(.75) !important;   /* make all images have 75% brightness */
+background: #111 !important;   /* background color of loading images (not all images use this) */
+background-color: #111 !important;   /* background color of loading images (not all images use this) */
 /* background-image: linear-gradient(#222,#111) !important; */
 /* filter: invert(75%) !important; */
 /* transition: opacity .5s ease-in-out !important; */
@@ -46,37 +46,37 @@ background-color: #111 !important;
 /* } */
 
 code, blockquote, q, nav, sup, sub, .code, .blockquote, .q, .nav, .sup, .sub {
-background-color: #333 !important;
-color: gold !important;
+background-color: #333 !important; /* background color for code snippets and quotes */
+color: gold !important; /* color for code snippets and quotes */
 }
 
 label, textarea, form, select, input, dialog, .label, .textarea, .form, .select, .input, .dialog {
-background-color: #333 !important;
-color: #ddd !important;
+background-color: #333 !important; /* background color for forms and input areas */
+color: #ddd !important; /* text color for forms and input areas */
 }
 
 button, btn, .button, .btn {
-background-color: #444 !important;
-border-color: #97a2ff !important;
-border-width: 2px !important;
-color: gold !important;
+background-color: #444 !important; /* background color for buttons */
+border-color: #97a2ff !important; /* border color for buttons */
+border-width: 2px !important; /* 2 pixel border width for buttons */
+color: gold !important; /* color for text on buttons */
 }
 
 a:link, .a:link {
-color: #eee !important;
-border-bottom: gold 1px solid !important;
+color: #eee !important; /* color for unvisited links */
+border-bottom: gold 1px solid !important; /* add underline to all clickable links */
 }
 
 a:visited, .a:visited {
-color: lightgreen !important;
+color: lightgreen !important; /* color for visited links */
 }
 
 a:hover, .a:hover {
-color: orange !important;
+color: orange !important; /* color for links that mouse hovers over them */
 }
 
 a:active, .a:active {
-color: yellow !important;
+color: yellow !important; /* color for links that you clicked but haven't let go of the left mouse button */
 } 
 
 /* @-moz-document domain("odysee.com"), domain("youtube.com") {
