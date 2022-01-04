@@ -55,6 +55,7 @@ here is how some of the popular websites look with this custom setup:
 
 <br>
 
+## error pages
 error pages are also in dark mode, no more blinding white background
 
 | Error Page |
