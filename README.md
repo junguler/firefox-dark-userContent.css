@@ -80,9 +80,13 @@ transition: linear 0.25s !important;
 }
 ```
 
-| normal | without white background |
-|---|---|
-| ![flashes](examples/flashes.gif)| ![noflashes](examples/noflashes.gif) |
+| normal |
+|---|
+| ![flashes](examples/flashes.gif)| 
+
+| without white background |
+|---|
+| ![noflashes](examples/noflashes.gif) |
 
 this option is not perfect tho but it works for people with severe accessibility issues or eye fatigue, i'm not going to include this in the main file either as the majority of people probably don't need it, i'm sure there is a better way to do this and i'm actively searching for it but i'm going to leave this here for the time being
 
