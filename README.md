@@ -61,4 +61,22 @@ error pages are also in dark mode, no more blinding white background
 
 <br>
 
+if you are on a slow internet and notice many images loading with a white background even tho we have set dark background colors for images it's because most jpg images have a white background baked into them, we can go around this by applying some inverting filters to images and revert them back when your mouse is hovering over the image, this will make the images harder to make out and it might result in hard to understand images but will help elavete eye pain, edit the the css file and add this for the img and img:hover tag sections
+```
+img, .img {
+background: #ccc !important;
+background-color: #ccc !important;
+filter: brightness(.75) invert(75%) hue-rotate(180deg) !important;
+transition: none !important;
+}
+
+img:hover, .img:hover {
+transition: none !important;
+filter: brightness(1) invert(0%) hue-rotate(0deg) !important;
+}
+```
+this option is not perfect tho but it works for people with severe accessibility issues or eye fatigue, i'm not going to include this in the main file either as the majority of people probably don't need it
+
+<br>
+
 things might change with this file in the future but i consider it usable and it's a direct improvement over the dark extensions i've used in the past, some pastal colors are used in different tags to give a bit of life to pages as they were quite two dimensional if you only used firefox's color option alone
