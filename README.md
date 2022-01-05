@@ -92,5 +92,18 @@ this option is not perfect tho but it works for people with severe accessibility
 
 <br>
 
+## remove rounded corners
+this is pretty much down to preference but i don't like rounded corners in websites
+```
+* {
+border-radius: 0% !important;
+}
+```
+this will apply to everything on every website, if you just want to use it on images do not include these lines and just add `border-radius: 0% !important;` to the end of your `img .img` section
+
+like the example above about white background on loading images this option is not included by default as it's quite niche and not to everyone's taste but use it if you like it
+
+<br>
+
 ## still in beta status and actively worked on
 things might change with this file in the future but i consider it usable and it's a direct improvement over the dark extensions i've used in the past, some pastal colors are used in different tags to give a bit of life to pages as they were quite two dimensional if you only used firefox's color option alone
