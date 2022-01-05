@@ -112,7 +112,7 @@ like the example above about white background on loading images this option is n
 you can use the same line for the opposite goal too, if you want all images to have rounded corners just do something like this:
 ```
 img, .img {
-border-radius: 25% !important;
+border-radius: 10% !important;
 }
 ```
 
