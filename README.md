@@ -103,6 +103,10 @@ this will apply to everything on every website, if you just want to use it on im
 
 like the example above about white background on loading images this option is not included by default as it's quite niche and not to everyone's taste but use it if you like it
 
+| default | not rounded |
+|---|---|
+| ![rounded](examples/rounded.png) | ![not-rounded](examples/not-rounded.png) |
+
 <br>
 
 ## still in beta status and actively worked on
