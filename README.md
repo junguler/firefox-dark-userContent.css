@@ -107,6 +107,13 @@ like the example above about white background on loading images this option is n
 |---|---|
 | ![rounded](examples/rounded.png) | ![not-rounded](examples/not-rounded.png) |
 
+you can use the same line for the opposite goal too, if you want all images to have rounded corners just do something like this:
+```
+img, .img {
+border-radius: 25% !important;
+}
+```
+
 <br>
 
 ## still in beta status and actively worked on
