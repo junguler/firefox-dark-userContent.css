@@ -23,7 +23,7 @@ set the firefox theme to dark in `about:addons` > `themes` and from there it sho
 <br>
 
 ## how it looks
-here is how some of the popular websites look with this custom setup:
+here is how some of the popular websites look with this custom setup (because this css file is being actively worked on some details might be different from the images shown here but the overal look and feel should be the same, i'll make sure to update these when i was satisfied with the state of the file)
 
 | Github |
 |---|
