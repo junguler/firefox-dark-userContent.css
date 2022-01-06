@@ -1,5 +1,18 @@
 this css file is not meant to be used on it's own, i'm using it with the colors option from the firefox settings page
 
+<br>
+
+quick links:
+* [how to use](https://github.com/junguler/firefox-dark-userContent.css#how-to-use)
+* [how it looks](https://github.com/junguler/firefox-dark-userContent.css#how-it-looks)
+* [error page](https://github.com/junguler/firefox-dark-userContent.css#error-pages)
+* [remove white background from loading images using inversion](https://github.com/junguler/firefox-dark-userContent.css#remove-white-backgorund-for-loading-images)
+* [using scale](https://github.com/junguler/firefox-dark-userContent.css#using-scale)
+* [using opacity](https://github.com/junguler/firefox-dark-userContent.css#using-opacity)
+* [remove/add rounded corners](https://github.com/junguler/firefox-dark-userContent.css#remove-rounded-corners)
+
+<br>
+
 ## how to use?
 go to `Settings` > `Language and Appearance` > `Colors`
 
@@ -90,7 +103,7 @@ transition: ease 0.25s !important;
 
 this option is not perfect tho but it works for people with severe accessibility issues or eye fatigue, i'm not going to include this in the main file either as the majority of people probably don't need it, i'm sure there is a better way to do this and i'm actively searching for it but i'm going to leave this here for the time being
 
-### using scale
+## using scale
 another way to go about this is load the images at reduced sized and when you mouse is hovered over them they can go back to the normal size set by the website designer(s)
 ```
 img {
@@ -127,7 +140,7 @@ these effects will only apply to these two websites and does not effect others a
 
 <br>
 
-### using opacity
+## using opacity
 using opacity we can change the images the least and still darken them enough to have a easy viewing experience, mouse hover is going to show the image in it's normal form
 ```
 img {
