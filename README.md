@@ -67,14 +67,14 @@ error pages are also in dark mode, no more blinding white background
 ## remove white backgorund for loading images
 if you are on a slow internet and notice many images loading with a white background even tho we have set dark background colors for images it's because most images have a white background baked into them, we can go around this by applying some inverting filters to images and revert them back when your mouse is hovering over the image, this will make the images harder to make out and it might result in hard to understand images but will help alleviate eye pain, edit the the css file and add these lines for the img and img:hover tag sections and remove the previous lines regarding the same tags
 ```
-img, .img {
+img {
 background: #ccc !important;
 background-color: #ccc !important;
 filter: brightness(.75) invert(75%) hue-rotate(180deg) !important;
 transition: ease 0.25s !important;
 }
 
-img:hover, .img:hover {
+img:hover {
 filter: brightness(1) invert(0%) hue-rotate(0deg) !important;
 transition: ease 0.25s !important;
 }
@@ -89,6 +89,37 @@ transition: ease 0.25s !important;
 | ![noflashes](examples/noflashes.gif) |
 
 this option is not perfect tho but it works for people with severe accessibility issues or eye fatigue, i'm not going to include this in the main file either as the majority of people probably don't need it, i'm sure there is a better way to do this and i'm actively searching for it but i'm going to leave this here for the time being
+
+### using scale
+another way to go about this is load the images at reduced sized and when you mouse is hovered over them they can go back to the normal size set by the website designer(s)
+```
+img {
+transition: ease-in-out 0.25s !important;
+scale: 50% !important;
+}
+
+img:hover {
+transition: ease-in-out 0.25s !important;
+scale: 100% !important;
+}
+```
+
+you are not limited to always use these effects on websites, say only a few of the websites you go to load images at a big size (namely websites with backgorund images to download) add the address inside the code snipped below so these stylings are applied to those sites, separate websites with `,` or just make as many of these line as you want with different settings for each website
+
+```
+@-moz-document domain("free-images.com"), domain("rawpixel.com") {
+img {
+transition: ease-in-out 0.25s !important;
+scale: 50% !important;
+}
+
+img:hover {
+transition: ease-in-out 0.25s !important;
+scale: 100% !important;
+}
+}
+```
+these effects will only apply to these two websites and does not effect others at all
 
 <br>
 
@@ -111,7 +142,7 @@ like the example above about white background on loading images this option is n
 
 you can use the same line for the opposite goal too, if you want all images to have rounded corners just do something like this:
 ```
-img, .img {
+img {
 border-radius: 10% !important;
 }
 ```
