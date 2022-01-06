@@ -104,6 +104,10 @@ scale: 100% !important;
 }
 ```
 
+| scale 50% <-> 100% |
+|---|
+| ![scale](examples/scale.gif) |
+
 you are not limited to always use these effects on websites, say only a few of the websites you go to load images at a big size (namely websites with backgorund images to download) add the address inside the code snipped below so these stylings are applied to those sites, separate websites with `,` or just make as many of these line as you want with different settings for each website
 
 ```
@@ -130,7 +134,7 @@ this is pretty much down to preference but i don't like rounded corners in websi
 border-radius: 0% !important;
 }
 ```
-this will apply to everything on every website, if you just want to use it on images do not include these lines and just add `border-radius: 0% !important;` to the end of your `img .img` section
+this will apply to everything on every website, if you just want to use it on images do not include these lines and just add `border-radius: 0% !important;` to the end of your `img` section
 
 like the example above about white background on loading images this option is not included by default as it's quite niche and not to everyone's taste but use it if you like it
 
