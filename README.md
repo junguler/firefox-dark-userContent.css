@@ -71,12 +71,12 @@ img, .img {
 background: #ccc !important;
 background-color: #ccc !important;
 filter: brightness(.75) invert(75%) hue-rotate(180deg) !important;
-transition: linear 0.25s !important;
+transition: ease 0.25s !important;
 }
 
 img:hover, .img:hover {
 filter: brightness(1) invert(0%) hue-rotate(0deg) !important;
-transition: linear 0.25s !important;
+transition: ease 0.25s !important;
 }
 ```
 
