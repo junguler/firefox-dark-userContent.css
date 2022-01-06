@@ -1,4 +1,4 @@
-body, .body {
+body {
 background-color: rgb(17, 17, 17) !important; /* background color */
 background: rgb(17, 17, 17) !important; /* background color */
 background-image: linear-gradient(rgb(34, 34, 34),rgb(17, 17, 17)) !important; /* background gradient, it used on some websites */
@@ -6,32 +6,28 @@ color: rgb(221, 221, 221) !important; /* text color */
 opacity: .90 !important; /* make everything on the page 90% brightness */
 }
 
-/* html div span {
-scrollbar-color: hotpink cyan !important;
-} */
-
-p, .p {
+p {
 color: rgb(221, 221, 221) !important; /* text color */
 }
 
-b, em, i, mark, u, .em, .b, .i, .mark, .u {
+b, em, i, mark, u {
 color: rgba(255, 171, 171, 1) !important; /* color for bold text and glyphs */
 }
 
-h1, h2, .h1, .h2 {
+h1, h2 {
 color: rgba(133, 227, 255, 1) !important; /* color for all header sizes */
 }
 
-ul, ol, li, del, dt, dd, optgroup, dl, .ul, .ol, .li, .del, .dt, .dd, .optgroup, .dl {
+ul, ol, li, del, dt, dd, optgroup, dl {
 color: rgba(246, 166, 255, 1) !important; /* color for all list types */
 }
 
-table, td, th, tr, col, caption, thead, tbody, tfoot, colgroup, dialog, .table, .td, .th, .tr, .col, .caption, .thead, .tbody, .tfoot, .colgroup, .dialog {
+table, td, th, tr, col, caption, thead, tbody, tfoot, colgroup, dialog {
 background-color: rgb(34, 34, 34) !important; /* background color for all tables */
 color: rgb(221, 221, 221) !important; /* color for all tables */
 }
 
-img, .img {
+img {
 filter: brightness(.75) !important; /* make all images have 75% brightness */
 background: rgba(17, 17, 17, 0.1)!important; /* background color of loading images (not all images use this) */
 background-color: rgba(17, 17, 17, 0.1) !important; /* background color of loading images (not all images use this) */
@@ -42,86 +38,35 @@ background-color: rgba(17, 17, 17, 0.1) !important; /* background color of loadi
 /* filter: brightness(1) !important */
 /* } */
 
-code, blockquote, q, nav, sup, sub, .code, .blockquote, .q, .nav, .sup, .sub {
+code, blockquote, q, nav, sup, sub {
 background-color: rgb(51, 51, 51) !important; /* background color for code snippets and quotes */
 color: rgba(255, 217, 0, 1) !important; /* color for code snippets and quotes */
 }
 
-label, textarea, form, select, input, dialog, .label, .textarea, .form, .select, .input, .dialog {
+label, textarea, form, select, input, dialog {
 background-color: rgb(51, 51, 51) !important; /* background color for forms and input areas */
 color: rgb(221, 221, 221) !important; /* text color for forms and input areas */
 }
 
-button, btn, .button, .btn {
+button, btn {
 background-color: rgb(68, 68, 68) !important; /* background color for buttons */
 border-color: rgba(151, 162, 255, 1) !important; /* border color for buttons */
 color: rgba(255, 217, 0, 1) !important; /* color for text on buttons */
 }
 
-a:link, .a:link {
+a:link {
 color: rgb(238, 238, 238) !important; /* color for unvisited links */
 border-bottom: rgba(255, 217, 0, 1) 1px solid !important; /* add underline to all clickable links */
 }
 
-a:visited, .a:visited {
+a:visited {
 color: rgba(144, 238, 144, 1) !important; /* color for visited links */
 }
 
-a:hover, .a:hover {
+a:hover {
 color: rgba(255, 166, 0, 1) !important; /* color for links that mouse hovers over them */
 }
 
-a:active, .a:active {
+a:active {
 color: rgba(255, 255, 0, 1) !important; /* color for links that you clicked but haven't let go of the left mouse button */
 } 
-
-/* @-moz-document domain("odysee.com"), domain("youtube.com") {
-	div {
-	}
-} */
-
-/* div {
-background-color: #222 !important;
-background: #222 !important;
-background-image: linear-gradient(#333,#222) !important;
-color: #ddd !important;
-} */
-
-
-/* .dnsNotFound #errorPageContainer{
-	background-color: #111111 !important;
-}
-
-.connectionFailure #errorPageContainer{
-	background-color: #111111 !important;
-}
-
-.netTimeout #errorPageContainer{
-	background-color: #111111 !important;
-}
-
-.neterror #errorPageContainer{
-	background-color: #111111 !important;
-} */
-
-/* URL to SVG filter
-filter: url("filters.svg#filter-id"); */
-
-/*
-filter: blur(5px);
-filter: brightness(0.4);
-filter: contrast(200%);
-filter: drop-shadow(16px 16px 20px blue);
-filter: grayscale(50%);
-filter: hue-rotate(90deg);
-filter: invert(75%);
-filter: opacity(25%);
-filter: saturate(30%);
-filter: sepia(60%);
-filter: contrast(175%) brightness(3%);
-filter: none;
-filter: inherit;
-filter: initial;
-filter: revert;
-filter: unset; 
-*/
