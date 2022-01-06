@@ -18,7 +18,7 @@ b, em, i, mark, u, .em, .b, .i, .mark, .u {
 color: rgba(255, 171, 171, 1) !important; /* color for bold text and glyphs */
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, .h1, .h2 {
 color: rgba(133, 227, 255, 1) !important; /* color for all header sizes */
 }
 
