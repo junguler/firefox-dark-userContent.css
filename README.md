@@ -127,6 +127,25 @@ these effects will only apply to these two websites and does not effect others a
 
 <br>
 
+### using opacity
+using opacity we can change the images the least and still darken them enough to have a easy viewing experience, mouse hover is going to show the image in it's normal form
+```
+img {
+transition: 0.5s ease !important;
+opacity: .50 !important;
+}
+
+img:hover {
+transition: 0.5s ease !important;
+opacity: 1 !important;
+}
+```
+| opacity 50% <-> 100% |
+|---|
+| ![opacity](examples/opacity.gif) |
+
+<br>
+
 ## remove rounded corners
 this is pretty much down to preference but i don't like rounded corners in websites
 ```
