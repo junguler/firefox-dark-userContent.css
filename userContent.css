@@ -48,7 +48,7 @@ background-color: rgb(51, 51, 51) !important; /* background color for forms and 
 color: rgb(221, 221, 221) !important; /* text color for forms and input areas */
 }
 
-button, btn {
+button, .btn {
 background-color: rgb(68, 68, 68) !important; /* background color for buttons */
 border-color: rgba(151, 162, 255, 1) !important; /* border color for buttons */
 color: rgba(255, 217, 0, 1) !important; /* color for text on buttons */
