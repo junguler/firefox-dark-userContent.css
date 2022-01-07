@@ -10,7 +10,7 @@ p {
 color: rgb(221, 221, 221) !important; /* text color */
 }
 
-b, em, i, mark, u {
+b, em, i, mark, u, em {
 color: rgba(255, 171, 171, 1) !important; /* color for bold text and glyphs */
 }
 
@@ -38,7 +38,7 @@ background-color: rgba(17, 17, 17, 0.1) !important; /* background color of loadi
 /* filter: brightness(1) !important */
 /* } */
 
-code, blockquote, q, nav, sup, sub {
+code, blockquote, q, nav, sup, sub, strong {
 background-color: rgb(51, 51, 51) !important; /* background color for code snippets and quotes */
 color: rgba(255, 217, 0, 1) !important; /* color for code snippets and quotes */
 }
