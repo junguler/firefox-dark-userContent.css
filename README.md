@@ -157,6 +157,19 @@ opacity: 1 !important;
 |---|
 | ![opacity](examples/opacity.gif) |
 
+because our images are always on a dark background we can also use brightness filter to achive the same effect, one difference being if images are rendered on-top of tables, borders or other stuff they are not shown behind the images when brightness is used
+```
+img {
+transition: 0.5s ease !important;
+filter: brightness(50%) !important;
+}
+
+img:hover {
+transition: 0.5s ease !important;
+filter: brightness(100%) !important;
+}
+```
+
 <br>
 
 ## remove rounded corners
