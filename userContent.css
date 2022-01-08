@@ -14,6 +14,11 @@ span {
 background-color: rgb(51, 51, 51) !important; /* shows the invisible spans of content that are related to eachother */
 }
 
+mark, marker {
+background-color: rgb(34, 34, 34) !important; /* background color for marked areas */
+color: rgb(221, 221, 221) !important; /* color for marked areas */
+}
+
 b, em, i, mark, u, em, small {
 color: rgba(255, 171, 171, 1) !important; /* color for bold text and glyphs */
 }
