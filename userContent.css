@@ -53,7 +53,7 @@ color: rgb(221, 221, 221) !important; /* text color for forms and input areas */
 }
 
 textarea, input {
-filter: invert(75%) !important;
+filter: invert(75%) hue-rotate(180deg) !important;
 }
 
 button, .btn {
