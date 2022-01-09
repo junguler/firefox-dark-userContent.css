@@ -203,9 +203,9 @@ border-radius: 10% !important;
 because this file applies to every website you go to and it's impossible for me to style things for each of them or even check them some problems are bound to happen to a website you might frequent to, luckily you can apply your own stylings for these specific websites using this easy to use syntax
 ```
 @-moz-document domain("google.com") {
-	p {
-		color: yellow !important;
-	}
+p {
+color: yellow !important;
+}
 }
 ```
 the above example applies the `yellow` color to every paragraph of the `google.com` website even tho we specified a light grey color in the begining of the css file, because this line is written after that tag it takes precedent for that website alone
