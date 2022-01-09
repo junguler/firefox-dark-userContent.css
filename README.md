@@ -4,6 +4,7 @@ this css file is not meant to be used on it's own, i'm using it with the colors 
 
 quick links:
 * [how to use](https://github.com/junguler/firefox-dark-userContent.css#how-to-use)
+* [the colors](https://github.com/junguler/firefox-dark-userContent.css#the-colors)
 * [how it looks](https://github.com/junguler/firefox-dark-userContent.css#how-it-looks)
 * [error page](https://github.com/junguler/firefox-dark-userContent.css#error-pages)
 * [remove white background from loading images using inversion](https://github.com/junguler/firefox-dark-userContent.css#remove-white-backgorund-for-loading-images)
