@@ -214,7 +214,7 @@ lets show some examples to make this easier to understand, we are applying a 75%
 ```
 @-moz-document domain("free-images.com"), domain("rawpixel.com") {
 img { 
-filter: brightness(90%) !important; 
+filter: brightness(100%) !important; 
 } 
 }
 ```
