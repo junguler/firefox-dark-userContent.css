@@ -10,6 +10,7 @@ quick links:
 * [using scale](https://github.com/junguler/firefox-dark-userContent.css#using-scale)
 * [using opacity](https://github.com/junguler/firefox-dark-userContent.css#using-opacity)
 * [remove/add rounded corners](https://github.com/junguler/firefox-dark-userContent.css#remove-rounded-corners)
+* [website specific settings](https://github.com/junguler/firefox-dark-userContent.css#website-specific-settings)
 
 <br>
 
