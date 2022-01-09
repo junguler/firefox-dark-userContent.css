@@ -198,5 +198,32 @@ border-radius: 10% !important;
 
 <br>
 
+## website specific settings
+because this file applies to every website you go to and it's impossible for me to style things for each of them or even check them some problems are bound to happen to a website you might frequent to, luckily you can apply your own stylings for these specific websites using this easy to use syntax
+```
+@-moz-document domain("google.com") {
+	p {
+		color: yellow !important;
+	}
+}
+```
+the above example applies the `yellow` color to every paragraph of the `google.com` website even tho we specified a light grey color in the begining of the css file, because this line is written after that tag it takes precedent for that website alone
+
+lets show some examples to make this easier to understand, we are applying a 75% brightness to all images (using the `img` tag) we see in websites using ``filter: brightness(.75)`` but i want images in image websites to be at 100% brightness, lets apply this to this two popular websites 
+```
+@-moz-document domain("free-images.com"), domain("rawpixel.com") {
+img { 
+filter: brightness(90%) !important; 
+} 
+}
+```
+
+you can use the same method to apply styles that are not present in the css file too, lets say you like rounded corner in all website that choose to include it but specifically want to remove them in your github prfoile pages for avatars, a quick inspect element shows that this rounded border style is being applied using the `.avatar` class, knowing this let's remove it
+```
+@-moz-document domain("github.com") { .avatar { border-radius: 0% !important; } }
+```
+
+<br>
+
 ## still in beta status and actively worked on
 things might change with this file in the future but i consider it usable and it's a direct improvement over the dark extensions i've used in the past, some pastal colors are used in different tags to give a bit of life to pages as they were quite two dimensional if you only used firefox's color option alone
