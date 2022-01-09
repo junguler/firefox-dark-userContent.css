@@ -47,9 +47,13 @@ background-color: rgb(51, 51, 51) !important; /* background color for code snipp
 color: rgba(255, 217, 0, 1) !important; /* color for code snippets and quotes */
 }
 
-label, textarea, form, select, input, dialog {
+label, form, select, dialog {
 background-color: rgb(51, 51, 51) !important; /* background color for forms and input areas */
 color: rgb(221, 221, 221) !important; /* text color for forms and input areas */
+}
+
+textarea, input {
+filter: invert(75%) !important;
 }
 
 button, .btn {
