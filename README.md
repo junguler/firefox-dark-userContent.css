@@ -219,7 +219,7 @@ filter: brightness(100%) !important;
 }
 ```
 
-you can use the same method to apply styles that are not present in the css file too, lets say you like rounded corner in all website that choose to include it but specifically want to remove them in your github prfoile pages for avatars, a quick inspect element shows that this rounded border style is being applied using the `.avatar` class, knowing this let's remove it
+you can use the same method to apply styles that are not present in the css file too, lets say you like rounded corner in all website that choose to include it but specifically want to remove them in github profile pages for avatars, a quick inspect element shows that this rounded border style is being applied using the `.avatar` class, knowing this let's remove it
 ```
 @-moz-document domain("github.com") { .avatar { border-radius: 0% !important; } }
 ```
