@@ -34,6 +34,27 @@ once you found the profile folder create a `chrome` folder inside and put this [
 
 set the firefox theme to dark in `about:addons` > `themes` and from there it should be a smooth experience without any white flashes before pages loading or when clicking on a link (tested under bare metal running kubuntu 20.04 firefox 95.0.1 and a virtual machine running debian testing with firefox 91.4.0esr)
 
+<br> 
+
+## the colors
+here is a list of some of the main colors used in this css file
+
+| tags | info | picture |
+|---|---|---|
+| body | background color | ![](examples/bg-color.jpg) |
+| body, p | text color | ![](examples/color.jpg) |
+| span | color of invisible spans of content | ![](examples/span.jpg) |
+| b, em, i, u, em, small | color of italic, emphesized and ... | ![](examples/italics.jpg) |
+| h1, h2 | color of headers | ![](examples/headers.jpg) |
+| ul, ol, li, del, dt, dd, optgroup, dl| color of some tables and borders | ![](examples/borders.jpg) |
+| code, blockquote, q, nav, sup, sub, strong, mark, marker | color of quotes, code snippets, bold and ... | ![](examples/quotes.jpg) |
+| button, .btn | color of button borders | ![](examples/button-border.jpg) |
+| a:link | color of unclicked links | ![](examples/link.jpg) |
+| a:visited | color of visited links | ![](examples/visited.jpg) |
+| a:hover | color of hovered links | ![](examples/hover.jpg) |
+| a:active | color of active/clicked links | ![](examples/active.jpg) |
+
+
 <br>
 
 ## how it looks
