@@ -71,10 +71,6 @@ a:hover {
 color: rgba(255, 166, 0, 1) !important; /* color for links that mouse hovers over them */
 }
 
-a:focus {
+a:focus, a:active {
 color: rgba(255, 255, 0, 1) !important; /* color for links that you clicked but haven't let go of the left mouse button */
 }
-
-a:active {
-color: rgba(255, 255, 0, 1) !important; /* color for links that you clicked but haven't let go of the left mouse button */
-} 
