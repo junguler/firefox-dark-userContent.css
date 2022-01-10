@@ -55,6 +55,7 @@ here is a list of some of the main colors used in this css file
 | a:hover | color of hovered links | ![](examples/hover.jpg) | ![](examples/hover2.jpg) |
 | a:active | color of active/clicked links | ![](examples/active.jpg) | ![](examples/active2.jpg) |
 
+note that some light and dark colors are inverted for the values to be easily visible
 
 <br>
 
