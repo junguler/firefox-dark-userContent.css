@@ -40,20 +40,20 @@ set the firefox theme to dark in `about:addons` > `themes` and from there it sho
 ## the colors
 here is a list of some of the main colors used in this css file
 
-| tags | info | picture |
-|---|---|---|
-| body | background color | ![](examples/bg-color.jpg) |
-| body, p | text color | ![](examples/color.jpg) |
-| span | color of invisible spans of content | ![](examples/span.jpg) |
-| b, em, i, u, em, small | color of italic, emphesized and ... | ![](examples/italics.jpg) |
-| h1, h2 | color of headers | ![](examples/headers.jpg) |
-| ul, ol, li, del, dt, dd, optgroup, dl| color of some tables and borders | ![](examples/borders.jpg) |
-| code, blockquote, q, nav, sup, sub, strong, mark, marker | color of quotes, code snippets, bold and ... | ![](examples/quotes.jpg) |
-| button, .btn | color of button borders | ![](examples/button-border.jpg) |
-| a:link | color of unclicked links | ![](examples/link.jpg) |
-| a:visited | color of visited links | ![](examples/visited.jpg) |
-| a:hover | color of hovered links | ![](examples/hover.jpg) |
-| a:active | color of active/clicked links | ![](examples/active.jpg) |
+| tags | info | rgb | hex |
+|---|---|---|---|
+| body | background color | ![](examples/bg-color.jpg) | ![](examples/bg-color2.jpg) |
+| body, p | text color | ![](examples/color.jpg) | ![](examples/color2.jpg) |
+| span | color of invisible spans of content | ![](examples/span.jpg) | ![](examples/span2.jpg) |
+| b, em, i, u, em, small | color of italic, emphesized and ... | ![](examples/italics.jpg) | ![](examples/italics2.jpg) |
+| h1, h2 | color of headers | ![](examples/headers.jpg) | ![](examples/headers2.jpg) |
+| ul, ol, li, del, dt, dd, optgroup, dl| color of some tables and borders | ![](examples/borders.jpg) | ![](examples/borders2.jpg) |
+| code, blockquote, q, nav, sup, sub, strong, mark, marker | color of quotes, code snippets, bold and ... | ![](examples/quotes.jpg) | ![](examples/quotes2.jpg) |
+| button, .btn | color of button borders | ![](examples/button-border.jpg) | ![](examples/button-border2.jpg) |
+| a:link | color of unclicked links | ![](examples/link.jpg) | ![](examples/link2.jpg) |
+| a:visited | color of visited links | ![](examples/visited.jpg) | ![](examples/visited2.jpg) |
+| a:hover | color of hovered links | ![](examples/hover.jpg) | ![](examples/hover2.jpg) |
+| a:active | color of active/clicked links | ![](examples/active.jpg) | ![](examples/active2.jpg) |
 
 
 <br>
