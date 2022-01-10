@@ -99,6 +99,14 @@ error pages are also in dark mode, no more blinding white background
 |---|
 | ![error](examples/error.png)|
 
+| Risk Warning Error |
+|---|
+| ![warning-error](examples/warning-error.png)|
+
+| Wrong Proxy Error |
+|---|
+| ![proxy-error](examples/proxy-error.png)|
+
 <br>
 
 ## remove white backgorund for loading images
