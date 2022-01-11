@@ -40,7 +40,7 @@ transition: ease 0.5s !important;
 
 img:hover {
 transition: ease 0.5s !important;
-filter: brightness(100%) !important
+filter: brightness(100%) !important;
 }
 
 code, blockquote, q, nav, sup, sub, strong, mark, marker {
