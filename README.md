@@ -20,7 +20,7 @@ quick links:
 go to `Settings` > `Language and Appearance` > `Colors`
 
 i have set `text` to light grey #cccccc and `background` to dark grey #222222, set `override the colors specified by the page with your selections above` to `always`
-leave the `use system colors` and `underline links` ticked off (link colors can be set but we are overwritting them in the css file anyway)
+leave the `use system colors` and `underline links` ticked off (link colors can be set but we are overwriting them in the css file anyway)
 
 | Colors |
 |---|
@@ -46,7 +46,7 @@ here is a list of some of the main colors used in this css file
 | body | background color | ![](examples/bg-color.jpg) | ![](examples/bg-color2.jpg) |
 | body, p | text color | ![](examples/color.jpg) | ![](examples/color2.jpg) |
 | span | color of invisible spans of content | ![](examples/span.jpg) | ![](examples/span2.jpg) |
-| b, em, i, u, em, small | color of italic, emphesized and ... | ![](examples/italics.jpg) | ![](examples/italics2.jpg) |
+| b, em, i, u, em, small | color of italic, emphasized and ... | ![](examples/italics.jpg) | ![](examples/italics2.jpg) |
 | h1, h2 | color of headers | ![](examples/headers.jpg) | ![](examples/headers2.jpg) |
 | ul, ol, li, del, dt, dd, optgroup, dl| color of some tables and borders | ![](examples/borders.jpg) | ![](examples/borders2.jpg) |
 | code, blockquote, q, nav, sup, sub, strong, mark, marker | color of quotes, code snippets, bold and ... | ![](examples/quotes.jpg) | ![](examples/quotes2.jpg) |
@@ -61,7 +61,7 @@ note that some light grey and dark grey colors are inverted for the values to be
 <br>
 
 ## how it looks
-here is how some of the popular websites look with this custom setup (because this css file is being actively worked on some details might be different from the images shown here but the overal look and feel should be the same, i'll make sure to update these when i was satisfied with the state of the file)
+here is how some of the popular websites look with this custom setup (because this css file is being actively worked on some details might be different from the images shown here but the overall look and feel should be the same, i'll make sure to update these when i was satisfied with the state of the file)
 
 | Github |
 |---|
@@ -114,7 +114,7 @@ error pages are also in dark mode, no more blinding white background
 if you are on a slow internet and notice many images loading with a white background even tho we have set dark background colors for images it's because most images have a white background baked into them, below is some methods i've come up with to somehow work around this annoyance, hovering mouse over the images in all examples turns them to their default look
 
 ## using inversion + hue-rotate
-applying a 75% inverting filter makes every instance of bright colors trun to dark and vise versa, this fixes the white background issue but makes the imaages harder to make out, we also apply white background color to these images since we want all pictures to be inverted and show a dark grey background color, the hue-rotate filter at 180 degrees turns every inverted color back to normal
+applying a 75% inverting filter makes every instance of bright colors turn to dark and vise versa, this fixes the white background issue but makes the images harder to make out, we also apply white background color to these images since we want all pictures to be inverted and show a dark grey background color, the hue-rotate filter at 180 degrees turns every inverted color back to normal
 ```
 img {
 background: #ccc !important;
@@ -157,7 +157,7 @@ scale: 100% !important;
 |---|
 | ![scale](examples/scale.gif) |
 
-you are not limited to always use these effects on websites, say only a few of the websites you go to load images at a big size (namely websites with backgorund images to download) add the address inside the code snipped below so these stylings are applied to those sites, separate websites with `,` or just make as many of these line as you want with different settings for each website
+you are not limited to always use these effects on websites, say only a few of the websites you go to load images at a big size (namely websites with background images to download) add the address inside the code snipped below so these stylings are applied to those sites, separate websites with `,` or just make as many of these line as you want with different settings for each website
 
 ```
 @-moz-document domain("free-images.com"), domain("rawpixel.com") {
@@ -195,7 +195,7 @@ opacity: 1 !important;
 
 <br>
 
-because our images are always on a dark background we can also use brightness filter to achive the same effect, one difference being if images are rendered on-top of tables, borders or other stuff they are not shown behind the images when brightness is used
+because our images are always on a dark background we can also use brightness filter to achieve the same effect, one difference being if images are rendered on-top of tables, borders or other stuff they are not shown behind the images when brightness is used
 ```
 img {
 transition: 0.5s ease !important;
@@ -264,4 +264,4 @@ you can use the same method to apply styles that are not present in the css file
 <br>
 
 ## still in beta status and actively worked on
-things might change with this file in the future but i consider it usable and it's a direct improvement over the dark extensions i've used in the past, some pastal colors are used in different tags to give a bit of life to pages as they were quite two dimensional if you only used firefox's color option alone
+things might change with this file in the future but i consider it usable and it's a direct improvement over the dark extensions i've used in the past, some pastel colors are used in different tags to give a bit of life to pages as they were quite two dimensional if you only used firefox's color option alone
