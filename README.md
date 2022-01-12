@@ -75,6 +75,14 @@ here is how some of the popular websites look with this custom setup (because th
 |---|
 | ![google](examples/google.png) |
 
+| View Page Source |
+|---|
+| ![source](examples/source.png) |
+
+| Raw Github file |
+|---|
+| ![raw](examples/raw.png) |
+
 | Youtube |
 |---|
 | ![youtube](examples/youtube.png) |
