@@ -111,7 +111,7 @@ error pages are also in dark mode, no more blinding white background
 <br>
 
 ## workaround for white background from loading images
-if you are on a slow internet and notice many images loading with a white background even tho we have set dark background colors for images it's because most images have a white background baked into them, below is some methods i've come up with to somehow work around this annoyance
+if you are on a slow internet and notice many images loading with a white background even tho we have set dark background colors for images it's because most images have a white background baked into them, below is some methods i've come up with to somehow work around this annoyance, hovering mouse over the images in all examples below turns them to their default look
 
 ## using inversion + hue-rotate
 applying a 75% inverting filter makes every instance of bright colors trun to dark and vise versa, this fixes the white background issue but makes the imaages harder to make out, we also apply white background color to these images since we want all pictures to be inverted and show a dark grey background color, the hue-rotate filter at 180 degrees turns every inverted color back to normal
