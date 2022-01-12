@@ -193,6 +193,8 @@ opacity: 1 !important;
 |---|
 | ![opacity](examples/opacity.gif) |
 
+<br>
+
 because our images are always on a dark background we can also use brightness filter to achive the same effect, one difference being if images are rendered on-top of tables, borders or other stuff they are not shown behind the images when brightness is used
 ```
 img {
