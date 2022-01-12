@@ -7,7 +7,8 @@ quick links:
 * [the colors](https://github.com/junguler/firefox-dark-userContent.css#the-colors)
 * [how it looks](https://github.com/junguler/firefox-dark-userContent.css#how-it-looks)
 * [error page](https://github.com/junguler/firefox-dark-userContent.css#error-pages)
-* [remove white background from loading images using inversion](https://github.com/junguler/firefox-dark-userContent.css#remove-white-backgorund-for-loading-images)
+* workaround for white background from loading images 
+  * [using inversion + hue-rotate](https://github.com/junguler/firefox-dark-userContent.css#remove-white-backgorund-for-loading-images)
   * [using scale](https://github.com/junguler/firefox-dark-userContent.css#using-scale)
   * [using opacity or brightness](https://github.com/junguler/firefox-dark-userContent.css#using-opacity)
 * [remove/add rounded corners](https://github.com/junguler/firefox-dark-userContent.css#remove-rounded-corners)
@@ -109,8 +110,11 @@ error pages are also in dark mode, no more blinding white background
 
 <br>
 
-## remove white backgorund for loading images
-if you are on a slow internet and notice many images loading with a white background even tho we have set dark background colors for images it's because most images have a white background baked into them, we can go around this by applying some inverting filters to images and revert them back when your mouse is hovering over the image, this will make the images harder to make out and it might result in hard to understand images but will help alleviate eye pain, edit the the css file and add these lines for the img and img:hover tag sections and remove the previous lines regarding the same tags
+## workaround for white background from loading images
+if you are on a slow internet and notice many images loading with a white background even tho we have set dark background colors for images it's because most images have a white background baked into them, below is some methods i've come up with to somehow work around this annoyance
+
+## using inversion + hue-rotate
+applying a 75% inverting filter makes every instance of bright colors trun to dark and vise versa, this fixes the white background issue but makes the imaages harder to make out, we also apply white background color to these images since we want all pictures to be inverted and show a dark grey background color, the hue-rotate filter at 180 degrees turns every inverted color back to normal
 ```
 img {
 background: #ccc !important;
@@ -129,11 +133,11 @@ transition: ease 0.25s !important;
 |---|
 | ![flashes](examples/flashes.gif)| 
 
-| without white background |
+| inverted + hue-rotated |
 |---|
 | ![noflashes](examples/noflashes.gif) |
 
-this option is not perfect tho but it works for people with severe accessibility issues or eye fatigue, i'm not going to include this in the main file either as the majority of people probably don't need it, i'm sure there is a better way to do this and i'm actively searching for it but i'm going to leave this here for the time being
+this option is not perfect tho but it works for people with severe accessibility issues or eye fatigue, i'm not going to include this in the main file either as the majority of people probably don't need it
 
 ## using scale
 another way to go about this is load the images at reduced sized and when you mouse is hovered over them they can go back to the normal size set by the website designer(s)
@@ -172,7 +176,7 @@ these effects will only apply to these two websites and does not effect others a
 
 <br>
 
-## using opacity
+## using opacity or brightness
 using opacity we can change the images the least and still darken them enough to have a easy viewing experience, mouse hover is going to show the image in it's normal form
 ```
 img {
