@@ -8,8 +8,8 @@ quick links:
 * [how it looks](https://github.com/junguler/firefox-dark-userContent.css#how-it-looks)
 * [error page](https://github.com/junguler/firefox-dark-userContent.css#error-pages)
 * [remove white background from loading images using inversion](https://github.com/junguler/firefox-dark-userContent.css#remove-white-backgorund-for-loading-images)
-* [using scale](https://github.com/junguler/firefox-dark-userContent.css#using-scale)
-* [using opacity](https://github.com/junguler/firefox-dark-userContent.css#using-opacity)
+  * [using scale](https://github.com/junguler/firefox-dark-userContent.css#using-scale)
+  * [using opacity or brightness](https://github.com/junguler/firefox-dark-userContent.css#using-opacity)
 * [remove/add rounded corners](https://github.com/junguler/firefox-dark-userContent.css#remove-rounded-corners)
 * [website specific settings](https://github.com/junguler/firefox-dark-userContent.css#website-specific-settings)
 
