@@ -61,7 +61,7 @@ note that some light grey and dark grey colors are inverted for the values to be
 <br>
 
 ## how it looks
-here is how some of the popular websites look with this custom setup (because this css file is being actively worked on some details might be different from the images shown here but the overall look and feel should be the same, i'll make sure to update these when i was satisfied with the state of the file)
+here is how some of the popular websites look with this custom setup
 
 | Github |
 |---|
