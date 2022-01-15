@@ -1,13 +1,13 @@
-html, div {
-background-color: rgba(34, 34, 34, 0.1) !important; /* background color */
-background: rgba(34, 34, 34, 0.1) !important; /* background color */
-background-image: linear-gradient(rgba(34, 34, 34, 0.1),rgba(34, 34, 34, 0.1)) !important; /* background gradient, its used on some websites */
-}
+/* html, div {
+background-color: rgba(34, 34, 34, 0.1) !important; 
+background: rgba(34, 34, 34, 0.1) !important; 
+background-image: linear-gradient(rgba(34, 34, 34, 0.1),rgba(34, 34, 34, 0.1)) !important;  
+} */
 
 body {
 background-color: rgb(17, 17, 17) !important; /* background color */
 background: rgb(17, 17, 17) !important; /* background color */
-background-image: linear-gradient(rgb(51, 51, 51),rgb(34, 34, 34)) !important; /* background gradient, its used on some websites */
+background-image: linear-gradient(rgb(34, 34, 34),rgb(17, 17, 17)) !important; /* background gradient, its used on some websites */
 color: rgb(221, 221, 221) !important; /* text color */
 opacity: 90% !important; /* make everything on the page 90% brightness */
 }
