@@ -122,6 +122,11 @@ error pages are also in dark mode, no more blinding white background
 
 <br>
 
+## About pages
+about pages are firefox specific pages that contain various information and tools for people to modify or monitor stuff on their browser, these pages are hard to modify and do not use the stylings we use for other websites but thankfully using css we can style them as well and that's exactly what i've done, go to [about:about](about:about) to see them
+
+<br>
+
 ## workaround for white background from loading images
 if you are on a slow internet and notice many images loading with a white background even tho we have set dark background colors for images it's because most images have a white background baked into them, below is some methods i've come up with to somehow work around this annoyance, hovering mouse over the images in all examples turns them to their default look
 
