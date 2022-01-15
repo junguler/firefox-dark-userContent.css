@@ -34,7 +34,7 @@ to find your profile folder go to `about:support` click `Profile Directory` and 
 
 once you found the profile folder create a `chrome` folder inside and put this [userContent.css](https://raw.githubusercontent.com/junguler/firefox-dark-userContent.css/main/userContent.css) file inside it and restart firefox
 
-set the firefox theme to dark in `about:addons` > `themes` and from there it should be a smooth experience without any white flashes before pages loading or when clicking on a link (tested under bare metal running kubuntu 20.04 firefox 95.0.1 and a virtual machine running debian testing with firefox 91.4.0esr)
+set the firefox theme to dark in `about:addons` > `themes` and from there it should be a smooth experience without any white flashes before pages loading or when clicking on a link (tested under bare metal running kubuntu 20.04 firefox 95.0.1 and 96.0 and a virtual machine running debian testing with firefox 91.4.0esr)
 
 <br> 
 
