@@ -83,6 +83,10 @@ here is how some of the popular websites look with this custom setup
 |---|
 | ![raw](examples/raw.png) |
 
+| Firefox Add-on Page |
+|---|
+| ![ff-addons](examples/ff-addons.png) |
+
 | Youtube |
 |---|
 | ![youtube](examples/youtube.png) |
