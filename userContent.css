@@ -1,9 +1,3 @@
-/* html, div {
-background-color: rgba(34, 34, 34, 0.1) !important; 
-background: rgba(34, 34, 34, 0.1) !important; 
-background-image: linear-gradient(rgba(34, 34, 34, 0.1),rgba(34, 34, 34, 0.1)) !important;  
-} */
-
 body {
 background-color: rgb(17, 17, 17) !important; /* background color */
 background: rgb(17, 17, 17) !important; /* background color */
@@ -94,6 +88,7 @@ a:active {
 color: rgb(255, 255, 0) !important; /* color for links that you clicked but haven't let go of the left mouse button */
 }
 
+/* below lines are for styling about pages in firefox */
 @-moz-document url-prefix("about:") {
 html, div, body {
 background-color: rgb(17, 17, 17) !important;
