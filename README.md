@@ -126,6 +126,18 @@ error pages are also in dark mode, no more blinding white background
 ## About pages
 about pages are firefox specific pages that contain various information and tools for people to modify or monitor stuff on their browser, these pages are hard to modify and do not use the stylings we use for other websites but thankfully using css we can style them as well and that's exactly what i've done, go to `about:about` to see them
 
+| about:about |
+|---|
+| ![about-about](examples/about-about.png)|
+
+| about:addons |
+|---|
+| ![about-addons](examples/about-addons.png)|
+
+| about:config |
+|---|
+| ![about-config](examples/about-config.png)|
+
 <br>
 
 ## workaround for white background from loading images
