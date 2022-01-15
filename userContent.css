@@ -93,3 +93,11 @@ color: rgb(255, 255, 0) !important;
 a:active {
 color: rgb(255, 255, 0) !important; /* color for links that you clicked but haven't let go of the left mouse button */
 }
+
+@-moz-document url-prefix("about:") {
+html, div, body {
+background-color: rgb(17, 17, 17) !important;
+background: rgb(17, 17, 17) !important;
+background-image: linear-gradient(rgb(34, 34, 34),rgb(17, 17, 17)) !important;
+color: rgb(221, 221, 221) !important;} 
+}
