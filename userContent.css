@@ -90,9 +90,9 @@ color: rgb(255, 255, 0) !important; /* color for links that you clicked but have
 
 /* below lines are for styling about pages in firefox */
 @-moz-document url-prefix("about:") {
-html, div, body {
-background-color: rgb(17, 17, 17) !important;
-background: rgb(17, 17, 17) !important;
-background-image: linear-gradient(rgb(34, 34, 34),rgb(17, 17, 17)) !important;
-color: rgb(221, 221, 221) !important;} 
+*:not(.checkbox-check, input[type=checkbox]) {
+background-color: rgba(17, 17, 17, 0.1) !important;
+background: rgba(17, 17, 17, 0.1) !important;
+background-image: linear-gradient(rgba(34, 34, 34, 0.1),rgba(17, 17, 17, 0.1)) !important;
+color: rgb(221, 221, 221) !important;}
 }
