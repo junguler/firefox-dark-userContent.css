@@ -10,8 +10,9 @@ p {
 color: rgb(221, 221, 221) !important; /* text color */
 }
 
+/* remove this span tag if you have to work with the developers tools window, unfortunently i don't know how to exclude it */
 span {
-background-color: rgba(200, 200, 200, 0.1) !important; /* shows the invisible spans of content that are related to each-other */
+background-color: rgb(54, 54, 54) !important; /* shows the invisible spans of content that are related to each-other */
 }
 
 b, em, i, u, em, small {
@@ -90,7 +91,7 @@ color: rgb(255, 255, 0) !important; /* color for links that you clicked but have
 
 /* below lines are for styling about pages in firefox */
 @-moz-document url-prefix("about:") {
-*:not(.checkbox-check, input[type=checkbox], [class*='button-']) {
+*:not(.checkbox-check, input, [class*='button-']) {
 background-color: rgba(17, 17, 17, 0.1) !important;
 background: rgba(17, 17, 17, 0.1) !important;
 background-image: linear-gradient(rgba(34, 34, 34, 0.1),rgba(17, 17, 17, 0.1)) !important;
