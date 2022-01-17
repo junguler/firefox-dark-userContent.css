@@ -89,7 +89,6 @@ color: rgb(226, 226, 226) !important; /* color for links that you clicked but ha
 }
 
 @-moz-document url-prefix("about:") {
-/* html, body, div { */
 *:not(.checkbox-check, input, [class*='button-']) {
 background-color: rgba(17, 17, 17, 0.1) !important;
 background: rgba(17, 17, 17, 0.1) !important;
