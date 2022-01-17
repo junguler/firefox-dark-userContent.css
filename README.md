@@ -1,5 +1,7 @@
 this css file is not meant to be used on it's own, i'm using it with the colors option from the firefox settings page
 
+this repo now includes `userContent-grayscale.css` which is in feature parity with the default file but every color has been converted to greyscale, images, videos and every kind of media is untouched and looks as they should
+
 <br>
 
 quick links:
