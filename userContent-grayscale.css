@@ -90,8 +90,7 @@ color: rgb(226, 226, 226) !important; /* color for links that you clicked but ha
 
 @-moz-document url-prefix("about:") {
 *:not(.checkbox-check, input, [class*='button-']) {
-background-color: rgba(17, 17, 17, 0.1) !important;
-background: rgba(17, 17, 17, 0.1) !important;
-background-image: linear-gradient(rgba(34, 34, 34, 0.1),rgba(17, 17, 17, 0.1)) !important;
-color: rgb(221, 221, 221) !important;}
+background-color: rgba(17, 17, 17, 0.01) !important;
+background: rgba(17, 17, 17, 0.01) !important;
+background-image: linear-gradient(rgb(34, 34, 34),rgb(17, 17, 17)) !important;}
 }
