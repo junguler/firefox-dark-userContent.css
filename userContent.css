@@ -1,7 +1,7 @@
 body {
-background-color: rgb(17, 17, 17) !important; /* background color */
-background: rgb(17, 17, 17) !important; /* background color */
-background-image: linear-gradient(rgb(34, 34, 34),rgb(17, 17, 17)) !important; /* background gradient, its used on some websites */
+background-color: rgb(34, 34, 34) !important; /* background color */
+background: rgb(34, 34, 34) !important; /* background color */
+background-image: linear-gradient(rgb(34, 34, 34),rgb(34, 34, 34)) !important; /* background gradient, its used on some websites */
 color: rgb(221, 221, 221) !important; /* text color */
 opacity: 90% !important; /* make everything on the page 90% brightness */
 }
@@ -34,8 +34,8 @@ color: rgb(221, 221, 221) !important; /* color for all tables + */
 
 img {
 filter: brightness(80%) !important; /* make all images have 75% brightness */
-background: rgba(17, 17, 17, 0.1)!important; /* background color of loading images (not all websites/images use this) */
-background-color: rgba(17, 17, 17, 0.1) !important; /* background color of loading images (not all websites/images use this) */
+background: rgba(34, 34, 34, 0.1)!important; /* background color of loading images (not all websites/images use this) */
+background-color: rgba(34, 34, 34, 0.1) !important; /* background color of loading images (not all websites/images use this) */
 transition: ease 0.5s !important;
 }
 
@@ -92,7 +92,7 @@ color: rgb(255, 255, 0) !important; /* color for links that you clicked but have
 /* below lines are for styling about pages in firefox */
 @-moz-document url-prefix("about:") {
 *:not(.checkbox-check, input, [class*='button-']) {
-background-color: rgba(17, 17, 17, 0.01) !important;
-background: rgba(17, 17, 17, 0.01) !important;
-background-image: linear-gradient(rgb(34, 34, 34),rgb(17, 17, 17)) !important;}
+background-color: rgba(34, 34, 34, 0.01) !important;
+background: rgba(34, 34, 34, 0.01) !important;
+background-image: linear-gradient(rgb(34, 34, 34),rgb(34, 34, 34)) !important;}
 }
