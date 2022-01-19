@@ -28,7 +28,7 @@ color: rgba(246, 166, 255, 1) !important; /* color for all list types + */
 }
 
 table, td, th, tr, col, caption, thead, tbody, tfoot, colgroup, dialog {
-background-color: rgb(34, 34, 34) !important; /* background color for all tables + */
+background-color: rgb(51, 51, 51) !important; /* background color for all tables + */
 color: rgb(221, 221, 221) !important; /* color for all tables + */
 }
 
