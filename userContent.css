@@ -49,17 +49,12 @@ background-color: rgb(51, 51, 51) !important; /* background color for code snipp
 color: rgba(255, 217, 0, 1) !important; /* color for code snippets and quotes + */
 }
 
-label, form, select, dialog {
+label, form, select, dialog, textarea, input {
 background-color: rgb(51, 51, 51) !important; /* background color for forms and input areas + */
 color: rgb(221, 221, 221) !important; /* text color for forms and input areas + */
 border-color: rgb(187, 187, 187) !important; /* border color */
 border-width: 1px !important; /* add 1 pixel width border */
-}
-
-textarea, input {
-filter: invert(75%) hue-rotate(180deg) !important; /* invert some forms and text areas that don't properly take background color */
-border-color: rgb(68, 68, 68) !important; /* border color */
-border-width: 1px !important; /* add 1 pixel width border */
+-moz-appearance: none !important; /* remove firefox specific styling */
 }
 
 button, .btn {
