@@ -58,8 +58,8 @@ border-width: 1px !important; /* add 1 pixel width border */
 }
 
 input:is([type="checkbox"], [type="radio"], [type="reset"], [type="button"], [type="submit"]) {
-background-color: #ccc !important;
-color: #222 !important;
+background-color: rgb(204, 204, 204) !important;
+color: rgb(34, 34, 34) !important;
 filter: invert(100%) hue-rotate(180deg) !important;
 }
 
