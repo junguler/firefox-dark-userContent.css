@@ -74,11 +74,11 @@ border-bottom: rgb(204, 204, 204) 1px solid !important; /* add underline to all 
 }
 
 a:visited {
-color: rgb(199, 199, 199) !important; /* color for visited links */
+color: rgb(185, 185, 185) !important; /* color for visited links */
 }
 
 a:hover {
-color: rgb(174, 174, 174) !important; /* color for links that mouse hovers over them */
+color: rgb(255, 255, 255) !important; /* color for links that mouse hovers over them */
 }
 
 /* a:focus {
