@@ -49,7 +49,7 @@ background-color: rgb(51, 51, 51) !important; /* background color for code snipp
 color: rgba(255, 217, 0, 1) !important; /* color for code snippets and quotes + */
 }
 
-label, form, select, dialog, textarea, input {
+label, form, select, dialog, textarea, input:not([type="checkbox"], [type="radio"], [type="reset"], [type="button"], [type="submit"]) {
 background-color: rgb(51, 51, 51) !important; /* background color for forms and input areas + */
 color: rgb(221, 221, 221) !important; /* text color for forms and input areas + */
 border-color: rgb(187, 187, 187) !important; /* border color */
