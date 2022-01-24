@@ -32,7 +32,7 @@ color: rgb(221, 221, 221) !important; /* color for all tables + */
 }
 
 img {
-filter: brightness(60%) !important; /* make all images have 75% brightness */
+filter: brightness(80%) !important; /* make all images have 75% brightness */
 background: rgba(34, 34, 34, 0.1)!important; /* background color of loading images (not all websites/images use this) */
 background-color: rgba(34, 34, 34, 0.1) !important; /* background color of loading images (not all websites/images use this) */
 transition: ease 0.5s !important;
@@ -40,7 +40,7 @@ transition: ease 0.5s !important;
 
 img:hover {
 transition: ease 0.5s !important;
-filter: brightness(80%) !important;
+filter: brightness(100%) !important;
 }
 
 code, blockquote, q, nav, sup, sub, strong, mark, marker {
