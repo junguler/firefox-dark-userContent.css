@@ -48,7 +48,7 @@ background-color: rgb(51, 51, 51) !important; /* background color for code snipp
 color: rgba(204, 204, 204, 1) !important; /* color for code snippets and quotes + */
 }
 
-label, form, select, dialog, textarea, input {
+label, form, select, dialog, textarea {
 background-color: rgb(51, 51, 51) !important; /* background color for forms and input areas + */
 color: rgb(221, 221, 221) !important; /* text color for forms and input areas + */
 border-color: rgb(187, 187, 187) !important; /* border color */
@@ -56,10 +56,10 @@ border-width: 1px !important; /* add 1 pixel width border */
 -moz-appearance: none !important;
 }
 
-input:is([type="checkbox"], [type="radio"], [type="reset"], [type="button"], [type="submit"]) {
+input:is([type="checkbox"], [type="radio"], [type="reset"], [type="button"], [type="submit"]), input {
 background-color: #ccc !important;
 color: #222 !important;
-filter: invert(100%) hue-rotate(180deg) !important;
+filter: invert(80%) hue-rotate(180deg) !important;
 }
 
 button, .btn {
