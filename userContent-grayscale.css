@@ -18,9 +18,9 @@ b, em, i, u, em, small {
 color: rgba(196, 196, 196, 1) !important; /* color for bold text and glyphs */
 }
 
-h1, h2 {
-color: rgba(202, 202, 202, 1) !important; /* color for two biggest header sizes */
-}
+/* h1, h2 {
+color: rgba(202, 202, 202, 1) !important;
+} */
 
 ul, ol, li, del, dt, dd, optgroup, dl {
 color: rgba(200, 200, 200, 1) !important; /* color for all list types + */
@@ -74,7 +74,7 @@ border-bottom: rgb(204, 204, 204) 1px solid !important; /* add underline to all 
 }
 
 a:visited {
-color: rgb(185, 185, 185) !important; /* color for visited links */
+color: rgb(170, 170, 170) !important; /* color for visited links */
 }
 
 a:hover {
