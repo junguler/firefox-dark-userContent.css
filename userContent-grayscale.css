@@ -6,6 +6,11 @@ color: rgb(221, 221, 221) !important; /* text color */
 opacity: 90% !important; /* make everything on the page 90% brightness */
 }
 
+html {
+scrollbar-color: rgb(52, 52, 52) rgba(0, 0, 0, 0.01) !important;
+scrollbar-width: thin !important;
+}
+
 p {
 color: rgb(221, 221, 221) !important; /* text color */
 }
