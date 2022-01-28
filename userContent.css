@@ -12,7 +12,7 @@ color: rgb(221, 221, 221) !important; /* text color */
 
 /* remove this span tag if you have to work with the developers tools window, unfortunently i don't know how to exclude it */
 span {
-background-color: rgb(54, 54, 54) !important; /* shows the invisible spans of content that are related to each-other */
+background-color: rgba(216, 216, 216, 0.1) !important; /* shows the invisible spans of content that are related to each-other */
 }
 
 b, em, i, u, em, small {
