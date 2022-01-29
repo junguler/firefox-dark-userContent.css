@@ -110,3 +110,8 @@ background: rgba(34, 34, 34, 0.01) !important;
 background-image: linear-gradient(rgb(34, 34, 34),rgb(34, 34, 34)) !important;
 color: rgb(221, 221, 221) !important; }
 }
+
+/* exclude the devtools windows from applying span colors */
+@-moz-document url("about:devtools-toolbox"), url-prefix("chrome://devtools/content/") {
+span { background-color: unset !important; }
+}
