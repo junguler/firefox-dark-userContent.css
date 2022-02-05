@@ -16,7 +16,7 @@ color: rgb(221, 221, 221) !important; /* text color */
 }
 
 span {
-background-color: rgba(216, 216, 216, 0.1) !important;
+background-color: rgb(54, 54, 54) !important;
 }
 
 b, em, i, u, em, small {

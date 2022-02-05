@@ -16,7 +16,7 @@ color: rgb(221, 221, 221) !important; /* text color */
 }
 
 span {
-background-color: rgba(216, 216, 216, 0.1) !important; /* shows the invisible spans of content that are related to each-other */
+background-color: rgb(54, 54, 54) !important; /* shows the invisible spans of content that are related to each-other */
 }
 
 b, em, i, u, em, small {
