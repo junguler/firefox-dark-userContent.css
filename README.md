@@ -39,6 +39,8 @@ once you found the profile folder create a `chrome` folder inside and put this [
 
 set the firefox theme to dark in `about:addons` > `themes` and from there it should be a smooth experience without any white flashes before pages loading or when clicking on a link (tested under bare metal running kubuntu 20.04 firefox 95.0.1 and 96.0 and a virtual machine running debian testing with firefox 91.4.0esr)
 
+for custom scrollbar color go to `about:config` search for `widget.non-native-theme.scrollbar.style` click on the pencil icon, set the value to 1 and click on the tick icon for it to take effect
+
 <br> 
 
 ## the colors
