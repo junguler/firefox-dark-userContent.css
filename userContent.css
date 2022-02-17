@@ -7,7 +7,7 @@ opacity: 90% !important; /* make everything on the page 90% brightness */
 }
 
 * {
-scrollbar-color: rgb(255, 105, 180) #333 !important;
+scrollbar-color: rgb(151, 162, 255) rgb(64, 64, 64) !important;
 scrollbar-width: thin !important;
 }
 
